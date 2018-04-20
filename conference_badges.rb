@@ -6,6 +6,7 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(attendees)
+<<<<<<< HEAD
   attendees.collect do |name|
     badge_maker(name)
   end
@@ -28,3 +29,14 @@ def printer(attendees)
   end
 end
     
+=======
+  count = 0
+  while count <= attendees.length-1
+  return "Hello, my name is #{attendees[count]}."
+  count += 1
+  end
+end
+
+
+ 
+>>>>>>> a6457f9f8acb7f06f9b2747c48b98780c96da05a
